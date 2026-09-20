@@ -21,4 +21,30 @@
 
   let temperature=undefined //null  
   console.log(typeof temperature)  //data type of null -> object & undefined->undefined
+
+
+  //------------------------------------------
+
+  // memory types-> stack(changes in the copy of a variable)-> stores primitive
+  // heap (directly gaives the reference of the variable)-> non primitive
+   
+  let num1=1234
+  let num2=num1
+  console.log(num2)
+  num2=098
+  console.log(num2)
+
+  //but 
+  let function1={
+      gmail:"xyz@gmail.com",
+      phone:1233
+  }
+  let function2=function1
+  function2.gmail="tushar@google.com"
+  console.log(function2.gmail) //by changing the gmail of function2 ,function1 gmail
+                               // also changes
+
+  console.log(function1.gmail)
+
+
    
