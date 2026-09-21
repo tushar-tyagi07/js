@@ -45,6 +45,7 @@
                                // also changes
 
   console.log(function1.gmail)
+  //console.log(typeof function1)-> object
 
 
    
