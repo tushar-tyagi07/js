@@ -38,5 +38,17 @@ console.log(obj3)
 //console.log(random2.hasOwnProperty('phone'))
 //console.log(random2.hasOwnProperty('fullname'))
 
+//DE-STRUCTURING
+const details={
+    course:"b.Tech",
+    fees:550000,
+    branch:"C.S.E",
+    duration:"4-years",
+    University:"A.K.T.U"
+}
+const {University:from}=details
+console.log(from)
+
+
 
 
